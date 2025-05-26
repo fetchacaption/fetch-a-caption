@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fetch-a-Caption</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Fetch-a-Caption</h1>
+  <button onclick="generateCaption()">Generate Caption</button>
+  <p id="caption"></p>
+  <script src="script.js"></script>
+</body>
+</html>
