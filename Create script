@@ -1,0 +1,9 @@
+function generateCaption() {
+  const captions = [
+    "Just paws-ing to say hi 🐾",
+    "Fluff yeah, it’s the weekend!",
+    "Tail wags and Insta tags!"
+  ];
+  const random = Math.floor(Math.random() * captions.length);
+  document.getElementById("caption").innerText = captions[random];
+}
